@@ -1,0 +1,6 @@
+ftp_host: 'dwbenterprises.net'
+ftp_dir: '/'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
