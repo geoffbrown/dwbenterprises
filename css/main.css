@@ -3,6 +3,7 @@ html, body {
   color: #4A4A4A;
   font-family: "Sailec";
   line-height: 1.3em;
+  font-size: 100%;
 }
 
 header {
@@ -22,6 +23,25 @@ hr {
 }
 
 
+.clients_container {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 2em 0 4em 0;
+}
+
+.clients_container .box img {
+  border: 1px solid #ccc;
+  margin: 1em;
+  width: 17em;
+  max-width: 100%;
+
+}
+
 footer hr {
 
     margin-left: 10%;
@@ -37,7 +57,11 @@ footer {
 footer span {
   display: block;
   text-align: center;
+}
+
+footer p {
   padding: 1em 0 1em 0;
+  text-align: center;
 }
 
 header h1 {
@@ -89,6 +113,10 @@ a {
   line-height: 1.5em;
 }
 
+.headline p {
+  text-align: center;
+}
+
 .headline span {
   color: #4A4A4A;
   line-height: normal;
@@ -103,6 +131,29 @@ section {
 }
 
 
+.content_area img {
+  width: 20em;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 3em 0;
+}
+
+ h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.content_area p {
+  line-height: 2em;
+  /*margin: 0 0 2em 0;*/
+  width: 70%;
+  margin: 2em auto;
+}
+
+.content_area hr {
+  margin: 4em 0 4em 0;
+}
 
 .email-btn {
   display: block;
