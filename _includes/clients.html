@@ -1,14 +1,10 @@
 <h1>Clients</h1>
-
 <div class="clients_container">
   {% for client in site.posts %}
-
     <div class="box">
-
       <a href="{{client.url}}.html">
       <img src="{{client.thumb}}" />
       </a>
     </div>
-
   {% endfor %}
 </div>
