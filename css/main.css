@@ -126,13 +126,13 @@ a {
 }
 
 .headline {
-  font-size: 2.3em;
+  font-size: 2em;
   color: #9B9B9B;
-  line-height: 1.8em;
+  line-height: 1.6em;
 }
 
 .headline p {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .headline span {
@@ -262,7 +262,7 @@ section {
     font-size: .75em;
   }
   .headline {
-    font-size: 1.3em;
+    font-size: 1.6em;
     line-height: 1.8em;
   }
 
@@ -280,14 +280,14 @@ section {
 
   }
   header h1 {
-    font-size: 1.6em;
+    font-size: 2em;
     padding: 2.5em 0 0 0;
   }
   header p {
     font-size: .75em;
   }
   .headline {
-    font-size: 1.3em;
+    font-size: 1.6em;
     line-height: 1.8em;
   }
 
@@ -296,7 +296,7 @@ section {
   }
 
   .clients_container {
-  
+
     width: 100%;
   }
 
