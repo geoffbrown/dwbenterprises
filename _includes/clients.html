@@ -3,8 +3,26 @@
   {% for client in site.posts %}
     <div class="box">
       <a href="{{client.url}}.html">
-      <img src="{{client.thumb}}" />
+      <div class="mask">
+        <img class="grow" src="{{client.thumb}}" />
+      </div>
       </a>
     </div>
   {% endfor %}
 </div>
+
+<!-- MASTER GALLERY -->
+<!-- <div class="grid">
+  {% for project in site.categories.project limit: {{include.limit}} %}
+  <a href="{{project.url}}.html">
+    <div class="box">
+      <div class="mask">
+        <img class="grow" src={{project.thumb}}>
+      </div>
+      <em>{{project.title}}</em>
+      <p>{{project.meta}}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div> -->
+<!-- MASTER GALLERY END -->
