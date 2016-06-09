@@ -1,7 +1,25 @@
+/* ----------- font declarations ----------- */
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('/fonts/sailec/sailec.eot?#iefix') format('embedded-opentype'), url('/fonts/sailec/sailec.woff') format('woff'), url('/fonts/sailec/sailec.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Sailec Bold';
+    src: url('/fonts/sailec_bold/sailec_bold.eot?#iefix') format('embedded-opentype'), url('/fonts/sailec_bold/sailec_bold.woff') format('woff'), url('/fonts/sailec_bold/sailec_bold.woff2') format('woff2');
+}
+
+
+
+
+
+
+
 html, body {
   background-color: #F7F7F7;
   color: #4A4A4A;
-  font-family: "Sailec";
+  font-family: "Sailec", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.3em;
   font-size: 100%;
 }
@@ -65,7 +83,7 @@ footer p {
 }
 
 header h1 {
-  font-weight: bold;
+  font-family: "Sailec Bold", "Helvetica Neue", Helvetica, Arial;
   font-size: 5em;
   padding: 1.5em 0 0 0;
   line-height: 1em;
@@ -99,7 +117,7 @@ a {
 	display: inline-block;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	outline: none;
 	position: relative;
 	-webkit-transition: all 0.3s;
@@ -108,9 +126,9 @@ a {
 }
 
 .headline {
-  font-size: 2em;
+  font-size: 2.3em;
   color: #9B9B9B;
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 
 .headline p {
@@ -130,6 +148,10 @@ section {
   margin: 2em 0 2em 0;
 }
 
+.content_area {
+  /*background-color: yellow;*/
+  margin: 0 auto;
+}
 
 .content_area img {
   width: 20em;
@@ -141,13 +163,13 @@ section {
 
  h1 {
   text-align: center;
-  font-weight: bold;
+  font-family: "Sailec Bold", "Helvetica Neue", Helvetica, Arial;
 }
 
 .content_area p {
   line-height: 2em;
   /*margin: 0 0 2em 0;*/
-  width: 70%;
+  /*width: 60%;*/
   margin: 2em auto;
 }
 
@@ -171,13 +193,19 @@ section {
 }
 
 .more_clients {
-  margin: 10em 0 0 0;
+  margin: 6em 0 0 0;
+}
+
+
+.content_area, .client_area p {
+  width: 60%;
+
 }
 
 .client_area p {
   line-height: 2em;
   /*margin: 0 0 2em 0;*/
-  width: 70%;
+  /*width: 70%;*/
   margin: 2em auto;
 }
 
@@ -222,13 +250,63 @@ section {
 /* iPhone 6, 6+, Nex 6p, 5x  land port */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .content_area, .client_area p {
+    width: 100%;
+
+  }
+  header h1 {
+    font-size: 2em;
+    padding: 2.5em 0 0 0;
+  }
+  header p {
+    font-size: .75em;
+  }
+  .headline {
+    font-size: 1.3em;
+    line-height: 1.8em;
+  }
+
+  .client_area h2 {
+    line-height: 1.5em;
+  }
 
 }
 
 /* iPhone 5, Galaxy s5 */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .content_area, .client_area p {
+    width: 100%;
 
+  }
+  header h1 {
+    font-size: 1.6em;
+    padding: 2.5em 0 0 0;
+  }
+  header p {
+    font-size: .75em;
+  }
+  .headline {
+    font-size: 1.3em;
+    line-height: 1.8em;
+  }
+
+  .client_area h2 {
+    line-height: 1.5em;
+  }
+
+  .clients_container {
+  
+    width: 100%;
+  }
+
+  .clients_container .box img {
+
+    margin: 0 0 1em 0;
+    width: 15em;
+
+
+  }
 }
 
 /* iPad */
