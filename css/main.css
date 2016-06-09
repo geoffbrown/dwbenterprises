@@ -48,6 +48,14 @@ section {
     margin: 0 auto;
 }
 
+.client_area a {
+  color: #A07A00;
+}
+
+.client_area a:hover {
+  text-decoration:underline;
+}
+
 /* ----------- header ----------- */
 
 header {
@@ -212,6 +220,8 @@ footer hr {
 .mask {
   overflow: hidden;
 }
+
+
 
 /*-------------MEDIA QUERIES-------------*/
 
