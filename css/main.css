@@ -62,7 +62,7 @@ header {
     width: 100%;
     background-color: #FFCA21;
     text-align: center;
-    padding: 1em 0 3em 0;
+    padding: 0 0 3em 0;
 }
 header h1 {
     line-height: 1em;
@@ -77,6 +77,14 @@ header p {
 }
 header .phone {
     letter-spacing: .1em;
+}
+
+
+.logo {
+  width: 5em;
+  margin: 4em 0 0 0;
+  /*padding: 4em 0 0 0;*/
+  /*max-width: 100%;*/
 }
 
 /* ----------- landing page headline ----------- */
@@ -245,6 +253,11 @@ footer hr {
   .header-bottom p {
     padding: 0;
   }
+  .logo {
+    width: 3em;
+    margin: 3em 0 0 0;
+  }
+
 }
 
 
@@ -256,8 +269,11 @@ footer hr {
     }
     header h1 {
         font-size: 2em;
-        padding: 2.5em 0 0 0;
+        margin: 0;
+        padding: 0;
+        padding-top: 0;
     }
+
     header p {
       width: 90%;
     }
@@ -277,11 +293,13 @@ footer hr {
     }
     .header-bottom h1 {
       font-size: 2em;
+      margin: 0;
     }
     .header-bottom p {
       padding: 0;
       width: 90%;
     }
+
 }
 
 /*Landscape*/
@@ -311,7 +329,7 @@ footer hr {
     }
     header h1 {
         font-size: 2em;
-        padding: 2.5em 0 0 0;
+        padding: 1em 0 0 0;
     }
     .headline {
         font-size: 1.6em;
@@ -330,16 +348,20 @@ footer hr {
     p {
         width: 100%;
     }
-}
+    .logo {
+      width: 3em;
+    }
 
 }
 
 /* iPad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   header h1 {
-    font-size: 2em;
-    color: yellow;
-    margin: 2em 0 0 0;
+    font-size: 3em;
+    margin: 0 0 0 0;
+  }
+  header p {
+    padding: 0;
   }
   p {
     width: 80%;
@@ -352,9 +374,8 @@ footer hr {
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
     header h1{
-      /*color: yellow;*/
       font-size: 4em;
-      padding: 1.5em 0 0 0;
+
     }
     p {
       width: 60%;
@@ -367,9 +388,8 @@ footer hr {
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
     header h1{
-      /*color: yellow;*/
       font-size: 4em;
-      padding: 1.5em 0 0 0;
+      padding: 1em 0 0 0;
     }
     p {
       width: 60%;
