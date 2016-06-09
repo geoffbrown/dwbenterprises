@@ -3,7 +3,7 @@ layout: client
 category: client
 title: Craftsman Tools
 thumb: /images/craftsman.png
-urls: http://www.craftsman.com/
+urls: http://www.craftsman.com
 ---
 
 # My Role
