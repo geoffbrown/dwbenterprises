@@ -79,7 +79,7 @@ header p {
   line-height: 1.5em;
 }
 
-header a {
+header .phone {
   letter-spacing: .1em;
 }
 
@@ -155,14 +155,51 @@ section {
   margin: 4em 0 4em 0;
 }
 
+.txcenter {
+  text-align: center;
+  display: block;
+}
+
+.client_area h2 {
+  text-align: center;
+  font-size: 2em;
+  margin: 2.5em 0 0 0;
+}
+
+.client_area h1:nth-child(2n) {
+  margin: 7em 0 0 0;
+}
+
+.more_clients {
+  margin: 10em 0 0 0;
+}
+
+.client_area p {
+  line-height: 2em;
+  /*margin: 0 0 2em 0;*/
+  width: 70%;
+  margin: 2em auto;
+}
+
+.client_area hr {
+  margin: 4em 0 4em 0;
+}
+
+
+
+
+
 .email-btn {
   display: block;
   margin: 2.5em auto;
   color: #FFEBC0;
   letter-spacing: .2em;
   background-color: #424242;
-  padding: 25px 70px;
   border-radius: .3em;
+  width: 10em;
+  padding: 1.5em 1.5em;
+  text-align: center;
+
 }
 
 .btn span {

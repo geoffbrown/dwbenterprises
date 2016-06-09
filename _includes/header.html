@@ -1,6 +1,8 @@
 <header>
+	<a href="/">
 	<h1>{{site.title}}</h1>
 	<p>{{site.description}}</p>
-	<button class="btn email-btn"><span>Email</span></button>
-	<a href="tel:+1-{{site.phone}}">{{site.phone-display}}</a>
+	</a>
+	<a href="mailto:{{site.email}}" class="btn email-btn">Email</a>
+	<a class="phone" href="tel:+1-{{site.phone}}">{{site.phone-display}}</a>
 </header>
