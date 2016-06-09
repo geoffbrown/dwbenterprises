@@ -337,6 +337,41 @@ footer hr {
 /* iPad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   header h1 {
-    font-size: 2.5em;
+    font-size: 2em;
+    color: yellow;
+    margin: 2em 0 0 0;
   }
+  p {
+    width: 80%;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    header h1{
+      /*color: yellow;*/
+      font-size: 4em;
+      padding: 1.5em 0 0 0;
+    }
+    p {
+      width: 60%;
+    }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    header h1{
+      /*color: yellow;*/
+      font-size: 4em;
+      padding: 1.5em 0 0 0;
+    }
+    p {
+      width: 60%;
+    }
 }
