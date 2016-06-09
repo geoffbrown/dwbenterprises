@@ -4,13 +4,10 @@ layout: default
 <section class="client_area">
     <section>
         <h2>{{page.title}}</h2>
+        <a href="{{page.urls}}">
+            <span class="txcenter">{{page.urls}}</span>
+        </a>
         <hr />
-        <h1>Visit</h1>
-        <p>
-            <a href="{{page.urls}}">
-                <span class="txcenter">{{page.urls}}</span>
-            </a>
-        </p>
     </section>
     {{content}}
 </section>
