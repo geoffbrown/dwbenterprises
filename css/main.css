@@ -103,6 +103,7 @@ header .phone {
 .headline {
     font-size: 2em;
     color: #9B9B9B;
+    text-align: center;
 }
 .headline p {
     width: 100%;
