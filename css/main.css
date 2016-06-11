@@ -36,6 +36,23 @@ p {
     line-height: 2em;
     margin: 2em auto;
 }
+
+ul {
+  width: 60%;
+  margin: 2em auto;
+}
+
+li {
+  margin: 0 0 1em 0;
+  line-height: 2em;
+}
+
+em {
+  font-style: italic;
+  text-align: center;
+  display: block;
+}
+
 a {
     color: #4A4A4A;
     text-decoration: none;
@@ -48,13 +65,7 @@ section {
     margin: 0 auto;
 }
 
-.client_area a {
-  color: #A07A00;
-}
 
-.client_area a:hover {
-  text-decoration:underline;
-}
 
 /* ----------- header ----------- */
 
@@ -67,12 +78,14 @@ header {
 header h1 {
     line-height: 1em;
     font-size: 4.5em;
-    padding: 1em 0 0 0;
+    padding: 0 0 0 0;
+    padding: .5em 0 0 0;
+    /*margin: 0;*/
 }
 header p {
     text-transform: uppercase;
     letter-spacing: .3em;
-    padding: 1.5em 0 0 0;
+    padding: 0 0 0 0;
     line-height: 1.5em;
 }
 header .phone {
@@ -83,8 +96,6 @@ header .phone {
 .logo {
   width: 5em;
   margin: 4em 0 0 0;
-  /*padding: 4em 0 0 0;*/
-  /*max-width: 100%;*/
 }
 
 /* ----------- landing page headline ----------- */
@@ -116,6 +127,14 @@ header .phone {
     display: block;
     margin: 0 auto;
     padding: 0 0 3em 0;
+}
+
+.client_area a {
+  color: #A07A00;
+}
+
+.client_area a:hover {
+  text-decoration:underline;
 }
 
 /* ----------- client page area ----------- */
@@ -163,6 +182,15 @@ footer hr {
     margin: 0 10% 2em 10%;
 }
 
+.header-bottom h1 {
+  font-size: 3em;
+  padding: 1em 0 0 0;
+}
+
+.header-bottom p {
+  padding: 0;
+}
+
 /* ----------- email button ----------- */
 
 .btn {
@@ -207,14 +235,6 @@ footer hr {
     margin: 6em 0 0 0;
 }
 
-.header-bottom h1 {
-  font-size: 3em;
-  padding: 1.5em 0 0 0;
-}
-
-.header-bottom p {
-  padding: 0;
-}
 
 .grow {
     transition: all .2s ease-in-out;
@@ -229,8 +249,6 @@ footer hr {
   overflow: hidden;
 }
 
-
-
 /*-------------MEDIA QUERIES-------------*/
 
 @media only screen and (max-width: 430px) {
@@ -242,6 +260,9 @@ footer hr {
   }
   p {
       width: 100%;
+  }
+  ul {
+    width: 100%;
   }
   .headline {
       font-size: 1.6em;
@@ -255,7 +276,7 @@ footer hr {
   }
   .logo {
     width: 3em;
-    margin: 3em 0 0 0;
+    margin: 2em 0 0 0;
   }
 
 }
@@ -291,6 +312,9 @@ footer hr {
     p {
         width: 100%;
     }
+    ul {
+      width: 100%;
+    }
     .header-bottom h1 {
       font-size: 2em;
       margin: 0;
@@ -318,6 +342,9 @@ footer hr {
     }
     p {
         width: 90%;
+    }
+    ul {
+      width: 90%;
     }
 }
 
@@ -348,6 +375,9 @@ footer hr {
     p {
         width: 100%;
     }
+    ul {
+      width: 100%;
+    }
     .logo {
       width: 3em;
     }
@@ -366,6 +396,9 @@ footer hr {
   p {
     width: 80%;
   }
+  ul {
+    width: 80%;
+  }
 }
 
 @media only screen
@@ -380,6 +413,9 @@ footer hr {
     p {
       width: 60%;
     }
+    ul {
+      width: 60%;
+    }
 }
 
 @media only screen
@@ -392,6 +428,9 @@ footer hr {
       padding: 1em 0 0 0;
     }
     p {
+      width: 60%;
+    }
+    ul {
       width: 60%;
     }
 }
