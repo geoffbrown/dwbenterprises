@@ -1,4 +1,4 @@
-![Placeholder](/images/illustration_placeholder.svg)
+![Placeholder](/images/001.jpg)
 
 # About
 
@@ -8,7 +8,7 @@ We are presently selling into the states of New York, Pennsylvania, Massachusett
 
 ***
 
-![Placeholder](/images/illustration_placeholder.svg)
+![Placeholder](/images/002.jpg)
 
 # Approach
 
