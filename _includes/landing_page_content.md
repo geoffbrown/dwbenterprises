@@ -15,7 +15,7 @@ We have extensive background in abrasives, PTA, hand tools, woodworking equipmen
 
 By using a centralized approach to selling, and by educating the distributor on the products that will amplify their profits, we at DWB Enterprises are able to maximize the effective time spent with the target company and extract ideas and tactics to be utilized in other markets.
 
-We physically call on distribution in 8 Northeast states on a minimum 6 week call schedule. We are actively calling and have a presence at a distributor base that exceeds 600 locations that are affiliated with [LMC](https://www.lmc.net/), PAL, [STAFTA](https://www.stafda.org/), [Do-It Best](http://www.doitbestcorp.com), [Orgill](https://orgill.com), and regional buying groups.
+We physically call on distribution in 8 Northeast states on a minimum 6 week call schedule. We are actively calling and have a presence at a distributor base that exceeds 600 locations that are affiliated with LMC, PAL, STAFTA, Do-It Best, Orgill, and regional buying groups.
 
 
 ***
