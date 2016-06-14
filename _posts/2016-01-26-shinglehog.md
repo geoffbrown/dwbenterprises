@@ -6,7 +6,11 @@ thumb: /images/shinglehog.png
 urls: http://www.theshinglehog.com
 ---
 
-# Company Information
+# What we offer
+
+DWB Enterprises provides the Shingle Hog rental and loaner program. Additionally we offer on-site product demonstrations and training, as well as trade show support. 
+
+# Company information
 
 The Shingle Hog was designed by a roofer to help all roofers. It greatly reduces the time and physical pain of removing shingles while leaving more energy to put on the new roof. The result is a completed roof project in a shorter period of time and less aches and pains.
 
