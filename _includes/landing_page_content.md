@@ -1,4 +1,4 @@
-![About image that contains pipes](/images/001.jpg)
+![About image that contains pipes](/images/001.png)
 
 # About
 
@@ -8,7 +8,7 @@ We are presently selling into the states of New York, Pennsylvania, Massachusett
 
 ***
 
-![Approach image that is an illustration of a rooftop](/images/002.jpg)
+![Approach image that is an illustration of a rooftop](/images/002.png)
 
 # Approach
 
